@@ -41,6 +41,15 @@
             this.radioButton1.TabStop = true;
             this.radioButton1.Text = "rbtn1";
             this.radioButton1.UseVisualStyleBackColor = true;
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.SuspendLayout();
+            // 
+            // panel1
+            // 
+            this.panel1.Location = new System.Drawing.Point(233, 168);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(200, 100);
+            this.panel1.TabIndex = 0;
             // 
             // Form1
             // 
@@ -52,12 +61,16 @@
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();
-
+            this.Controls.Add(this.panel1);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.ResumeLayout(false);
         }
 
         #endregion
 
         private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.Panel panel1;
     }
 }
 
